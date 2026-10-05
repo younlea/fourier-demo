@@ -109,7 +109,7 @@ fourier-demo/
 
 ## 📚 참고 자료
 
-- **Notion 강의 자료**: [DFT/FFT/IFFT 이론](https://app.notion.so/2_V2-3ac3574ddae380878e2cdfdfb015df98)
+- **Notion 강의 자료**: [DFT/FFT/IFFT 이론](https://app.notion.com/p/studyfork/2_V2-3ac3574ddae380878e2cdfdfb015df98)
 - **Cooley-Tukey FFT**: 1965년 발표된 고속 푸리에 변환 알고리즘
 - **Web Audio API**: [MDN 문서](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API)
 
