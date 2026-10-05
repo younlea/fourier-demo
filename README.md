@@ -24,11 +24,24 @@ open index.html  # macOS
 # 또는 Windows/Linux에서 브라우저로 index.html 파일을 열기
 ```
 
+macOS에서는 `open-demo.command` 파일을 **더블클릭**하면 바로 열립니다.
+
 ### GitHub Pages로 접근
 배포 후 아래 URL에서 바로 접근 가능합니다:
 ```
 https://<your-username>.github.io/fourier-demo/
 ```
+
+## 🔌 오프라인/로컬 백업 (강의실 Wi-Fi 또는 GitHub Pages 장애 대비)
+
+이 데모는 외부 의존성이 전혀 없는 순수 HTML/CSS/JS 단일 파일이라, **인터넷 연결 없이도 완전히 동일하게 동작**합니다 (Notion 강의 자료 링크만 예외).
+
+1. Finder에서 이 폴더를 열고 **`open-demo.command`를 더블클릭**
+   - 처음 실행 시 "확인되지 않은 개발자" 경고가 뜨면: 파일을 우클릭 → "열기" 선택
+2. 또는 `index.html`을 브라우저 창에 직접 드래그 앤 드롭
+3. 소리 탭의 피아노, 이미지 탭의 2D 스펙트럼 모두 로컬에서 그대로 작동합니다
+
+**GitHub Pages가 안 뜰 때는 당황하지 말고 바로 이 방법으로 전환하세요.**
 
 ## 📁 파일 구조
 
@@ -36,6 +49,7 @@ https://<your-username>.github.io/fourier-demo/
 fourier-demo/
 ├── index.html        # 랜딩 페이지 (시작점)
 ├── demo.html         # 실습 데모 (소리 + 이미지 푸리에 변환)
+├── open-demo.command # 더블클릭으로 로컬에서 바로 열기 (macOS)
 ├── README.md         # 이 파일
 └── .gitignore        # git 무시 파일 목록
 ```
