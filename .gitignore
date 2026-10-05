@@ -1,0 +1,29 @@
+# 바이너리/미디어 파일
+*.pptx
+*.ppt
+*.pdf
+
+# 시스템 파일
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# 편집기 및 IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.sublime-project
+.sublime-workspace
+
+# Node/npm (혹시 모를 경우)
+node_modules/
+npm-debug.log
+package-lock.json
+yarn.lock
+
+# 로컬 설정
+.env
+.env.local
